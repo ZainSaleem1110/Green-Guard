@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gras{
+    background: url("./images/greenTrees.PNG") no-repeat;
+    background-size: 100% 100%;
+}
