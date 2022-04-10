@@ -6,3 +6,10 @@
     background: url("./images/greenTrees.PNG") no-repeat;
     background-size: 100% 100%;
 }
+.faqopen{
+    text-decoration: none;
+}
+.faqDiv{
+    border: 1px solid #005D2D;
+    background:#05BE70 ;
+}
