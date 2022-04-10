@@ -1,6 +1,6 @@
 import React from 'react'
 import AddLocker from '../../assets/images/addLocker.svg'
-import { AiOutlineDownload } from 'react-icons/ai'
+import { BiDownload } from 'react-icons/bi'
 import TreesImg from '../../assets/images/trees.svg'
 import Tree from '../../assets/images/tree.svg'
 import TreeRight from '../../assets/images/treeRight.svg'
@@ -38,9 +38,9 @@ function Home() {
         <div className="overflow-x-hidden">
             <div className="flex justify-between px-20 pt-14 gap-10 w-[100%] bg-[#049A5B]">
                 <div className="w-[50%] z-40">
-                    <h1 className="text-white text-[64px] leading-tight font-bold">The Sustainable <br /> Adblocker</h1>
+                    <h1 className="text-[#FFFFDD] text-[64px] leading-tight font-bold">The Sustainable <br /> Adblocker</h1>
                     <p className="text-[24px] text-white mt-8">Get rid of intrusive ads, online tracking and malware while planting trees. Browse faster, safer, and sustainably with GreenGuard.</p>
-                    <button className="flex justify-center items-center mt-5 bg-white px-10 py-4 rounded-md text-[#049A5B]"><AiOutlineDownload className="mr-4" />Download Extension</button>
+                    <button className="flex text-[16px] font-bold justify-center items-center mt-5 bg-white px-10 py-4 rounded-md text-[#049A5B]"><BiDownload className="mr-4 text-[16px] font-bold" />Download Extension</button>
                     <div className="mt-5 flex items-center">
                         <div className="w-[15px] h-[15px] bg-white rounded-full mr-3" style={{ border: "3px solid #08D57F" }}></div>
                         <p className="text-white">It’s free to help the earth breathe</p>
@@ -50,13 +50,13 @@ function Home() {
                     <img src={AddLocker} alt="" />
                 </div>
             </div>
-            <div className="w-[100%] mt-[-8%] h-[520px] px-20 z-30 gras flex items-center">
-                <img src={TreesImg} alt="" />
+            <div className="w-[100%] mt-[-8%] h-[520px] pl-20 pr-10 z-30 gras flex items-center">
+                <img src={TreesImg} className=" mt-5" alt="" />
             </div>
             <div className="overflow-hidden relative">
                 <div className="w-[120%] h-[120vh] bg-[#049A5B] rounded-b-full ml-[-5%] flex justify-center mt-[-15%]">
                     <div className="w-[568px] mt-[17%] ml-[25%]">
-                        <h1 className="text-[48px] text-white">Less Ads, <span className="text-[#08D57F]">Safer</span> Browsing</h1>
+                        <h1 className="text-[48px] text-white font-bold">Less Ads, <span className="text-[#08D57F]">Safer</span> Browsing</h1>
                         <p className="text-white mt-5 pr-26 text-[20px]">Ads are annoying, slow down our browsers and can hide spyware and malware inside of them. Our adblocker weeds them out, so your data stays safe and your browser keeps running fast.</p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ function Home() {
             </div>
             <div className="pl-20 flex items-center pt-20 pb-5">
                 <div>
-                    <h1 className="text-[#005D2D] text-[48px]">Bring on the <span className="text-[#08D57F]">Trees</span></h1>
+                    <h1 className="text-[#005D2D] text-[48px] font-bold">Bring on the <span className="text-[#08D57F]">Trees</span></h1>
                     <p className="text-[#005D2D] text-[20px] mt-5 pr-10">Trees are the lungs of our planet and the heart of our business. That’s why we partner with the shops you love to plant trees at no extra cost to you. We’re the only adblocker with both a healthy browsing and living experience as our mission.</p>
                 </div>
                 <img src={TreeRight} alt="" />
@@ -89,7 +89,7 @@ function Home() {
                             </div>
                         })}
                     </div>
-                    <button className="flex justify-center items-center mt-5 bg-white px-10 py-4 rounded-md text-[#049A5B] mb-10"><AiOutlineDownload className="mr-4" />Download Extension</button>
+                    <button className="flex justify-center items-center mt-5 bg-white px-10 py-4 rounded-md text-[#049A5B] mb-10 font-bold"><BiDownload className="mr-4 text-[16px] font-bold" />Download Extension</button>
                 </div>
             </div>
             <Malvertising />
