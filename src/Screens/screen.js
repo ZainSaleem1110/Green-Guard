@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbar/Navbar'
-import Footer from '../Components/Footer/footer'
 import Home from '../Components/Home/Home'
+import AboutUs from '../Components/AboutUs/AboutUs'
 
 import { Route } from 'react-router-dom'
 
@@ -12,7 +12,9 @@ function screen() {
             <Route path="/" exact>
                 <Home />
             </Route>
-            <Footer />
+            <Route path="/aboutUs">
+                <AboutUs />
+            </Route>
         </div>
     )
 }

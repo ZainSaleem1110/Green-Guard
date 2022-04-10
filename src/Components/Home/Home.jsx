@@ -20,6 +20,7 @@ import Protection from './Protection/Protection'
 import Planting from './Planting/Planting'
 import AddLockerSection from './AddLocker/AddLocker'
 import VideoSection from './Video/Video'
+import Footer from './Footer/footer'
 
 let browsing = [
     { Img: Incon1, detail: "Eliminate distractions and get your tasks done quicker" },
@@ -96,6 +97,7 @@ function Home() {
             <Planting />
             <AddLockerSection />
             <VideoSection />
+            <Footer />
         </div>
     )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
-import GoogleImg from '../../assets/images/chrome.svg'
-import FirefoxImg from '../../assets/images/firefox.svg'
-import OperaImg from '../../assets/images/opera.svg'
+import GoogleImg from '../../../assets/images/chrome.svg'
+import FirefoxImg from '../../../assets/images/firefox.svg'
+import OperaImg from '../../../assets/images/opera.svg'
 
 function Footer() {
     return (
