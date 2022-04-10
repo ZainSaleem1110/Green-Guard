@@ -13,7 +13,7 @@ function FAQSection() {
         var div = document.querySelector(".faqDiv1").style
         var h1 = document.querySelector(".faqQ1").style
         h1.color = "#005D2D"
-        div.background = "white"
+        div.background = "#FFFFDD"
     }
     let handleClose = () => {
         setCheck(check - 1)
@@ -27,7 +27,7 @@ function FAQSection() {
         var div = document.querySelector(".faqDiv2").style
         var h1 = document.querySelector(".faqQ2").style
         h1.color = "#005D2D"
-        div.background = "white"
+        div.background = "#FFFFDD"
     }
     let handleClose1 = () => {
         setChecks(checks - 1)
@@ -41,7 +41,7 @@ function FAQSection() {
         var div = document.querySelector(".faqDiv3").style
         var h1 = document.querySelector(".faqQ3").style
         h1.color = "#005D2D"
-        div.background = "white"
+        div.background = "#FFFFDD"
     }
     let handleClose2 = () => {
         setCheckss(checkss - 1)
@@ -55,7 +55,7 @@ function FAQSection() {
         var div = document.querySelector(".faqDiv4").style
         var h1 = document.querySelector(".faqQ4").style
         h1.color = "#005D2D"
-        div.background = "white"
+        div.background = "#FFFFDD"
     }
     let handleClose3 = () => {
         setChecksss(checksss - 1)
@@ -69,7 +69,7 @@ function FAQSection() {
         var div = document.querySelector(".faqDiv5").style
         var h1 = document.querySelector(".faqQ5").style
         h1.color = "#005D2D"
-        div.background = "white"
+        div.background = "#FFFFDD"
     }
     let handleClose4 = () => {
         setCheckssss(checkssss - 1)
@@ -83,7 +83,7 @@ function FAQSection() {
         var div = document.querySelector(".faqDiv6").style
         var h1 = document.querySelector(".faqQ6").style
         h1.color = "#005D2D"
-        div.background = "white"
+        div.background = "#FFFFDD"
     }
     let handleClose5 = () => {
         setChecksssss(checksssss - 1)
