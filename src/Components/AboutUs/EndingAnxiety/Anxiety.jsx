@@ -5,8 +5,9 @@ import {Link} from 'react-router-dom'
 
 function Anxiety() {
     return (
-        <div className="bg-[#007645]">
+        <div>
             <img src={Greenry} alt="" />
+            <div className="bg-[#007645]">
             <div className="flex justify-between px-20">
                 <div className="w-[568px]">
                     <h1 className="text-[48px] text-[#FFFFDD] font-bold leading-tight">Ending Misclick Anxiety</h1>
@@ -19,6 +20,7 @@ function Anxiety() {
             <div className="mt-32 flex flex-col items-center">
             <h1 className="text-[48px] text-[#FFFFDD] font-bold leading-tight">Still have questions about <br />GreenGuard Adblocker?</h1>
             <Link to="/FAQ" className="flex justify-center items-center mt-5 bg-white px-10 py-4 rounded-md text-[#049A5B] mt-10">Visit our FAQ!</Link>
+            </div>
             </div>
         </div>
     )
