@@ -16,7 +16,7 @@ function Navbar() {
         mobileView.transition="2s"
     }
     return (
-        <div>
+        <div className="w-[100%] overflow-hidden">
             <div className="flex justify-between items-center sm:px-20 px-6 py-7 bg-[#049A5B] relative">
                 <img src={Logo} alt="" />
                 <div className="lg:w-[40%] md:w-[55%]">
@@ -31,7 +31,7 @@ function Navbar() {
                     </div>
                 </div>
             </div>
-            <div className="mobileView flex flex-col items-end justify-center absolute top-90 z-50 bg-white p-3">
+            {/* <div className="mobileView flex flex-col items-end justify-center absolute top-90 z-50 bg-white p-3">
                 <AiOutlineClose className="mr-4" onClick={mobileNavClose} />
                 <ul className="list-none flex flex-col items-center">
                     <li className="text-[16px] font-medium"><a href="#home">Home</a></li>
@@ -39,7 +39,7 @@ function Navbar() {
                     <li className="mt-3 text-[16px] font-medium"><a href="#NFT">NFT Drop</a></li>
                     <li className="mt-3 text-[16px] font-medium w-[232px] h-[47px] bg-[#08D57F] text-white rounded-lg flex items-center justify-center"><a href="#connect">Connect Wallet</a></li>
                 </ul>
-            </div>
+            </div> */}
         </div>
     )
 }

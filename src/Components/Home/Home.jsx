@@ -55,12 +55,12 @@ function Home() {
             </div>
             <div className="overflow-hidden relative">
                 <div className="md:w-[120%] md:h-[120vh] w-[100%] bg-[#049A5B] md:rounded-b-full md:ml-[-5%] flex justify-center mt-[-15%] md:pb-0 pb-10">
-                    <div className="lg:w-[568px] w-[80%] md:mt-[17%] mt-[25%] lg:ml-[25%]">
+                    <div className="md:w-[568px] w-[80%] md:mt-[17%] mt-[25%] lg:ml-[25%]">
                         <h1 className="lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] text-white font-bold">Less Ads, <span className="text-[#08D57F]">Safer</span> Browsing</h1>
                         <p className="text-white mt-5 pr-26 text-[20px]">Ads are annoying, slow down our browsers and can hide spyware and malware inside of them. Our adblocker weeds them out, so your data stays safe and your browser keeps running fast.</p>
                     </div>
                 </div>
-                <img src={Tree} className="absolute bottom-[-10%] left-0 w-[450px] h-[636px] md:flex hidden" alt="" />
+                <img src={Tree} className="absolute bottom-[-10%] left-0 w-[450px] h-[636px] lg:flex hidden" alt="" />
             </div>
             <div className="pl-20 flex items-center pt-20 pb-5">
                 <div>
