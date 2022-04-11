@@ -31,7 +31,7 @@ function Navbar() {
                     </div>
                 </div>
             </div>
-            <div className="mobileView flex flex-col items-end justify-center absolute top-90 z-40 bg-white p-3">
+            <div className="mobileView flex flex-col items-end justify-center absolute top-90 z-50 bg-white p-3">
                 <AiOutlineClose className="mr-4" onClick={mobileNavClose} />
                 <ul className="list-none flex flex-col items-center">
                     <li className="text-[16px] font-medium"><a href="#home">Home</a></li>
