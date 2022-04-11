@@ -7,23 +7,25 @@ import FAQSection from './FAQSection/FAQSection'
 
 function FAQ() {
     return (
+        <>
         <div className="bg-[#049A5B] relative w-[100%]">
-            <div className="w-[100%] h-[520px] px-10 z-30 gras flex items-center">
+            <div className="w-[100%] h-[520px] px-10 z-30 gras items-center lg:flex hidden">
                 <img src={TreesImg} className="w-[100%] mt-5" alt="" />
             </div>
             <div>
                 <div>
-                    <div className="absolute top-[3%] w-[100%]">
+                    <div className="lg:absolute lg:top-[3%] w-[100%]">
                     <FAQSection/>
                     </div>
-                    <img src={Greenry} className="mt-40" alt="" />
-                    <div className="pt-20 bg-[#007645] flex flex-col items-center">
+                    <img src={Greenry} className="lg:mt-40 mt-0 w-[100%]" alt="" />
+                    <div className="lg:pt-20 pt-0 bg-[#007645] flex flex-col items-center">
                         <Video />
                         <Footer />
                     </div>
                 </div>
             </div>
         </div>
+        </>
     )
 }
 

@@ -16,3 +16,9 @@
 .navLink{
     text-decoration: none !important;
 }
+body{
+    overflow-x: hidden;
+}
+.mobileView{
+    right: -350px;
+}
