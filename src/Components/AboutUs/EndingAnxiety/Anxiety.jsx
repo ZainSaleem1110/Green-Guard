@@ -11,7 +11,7 @@ function Anxiety() {
             <div className="flex justify-between md:px-20 px-10">
                 <div className="md:w-[568px] w-[100%]">
                     <h1 className="lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] text-[#FFFFDD] font-bold leading-tight">Ending Misclick Anxiety</h1>
-                    <p className="text-[20px] text-white mt-5">We’ve all experienced that gut-flipping moment of clicking something on accident. It either ends in a mass flow of pop ups or never-ending anxiety that our computer has been compromised. We got tired of that feeling, which is why we made GreenGuard, so it doesn’t matter what you click, you’ll always be protected.</p>
+                    <p className="sm:text-[20px] text-white mt-5">We’ve all experienced that gut-flipping moment of clicking something on accident. It either ends in a mass flow of pop ups or never-ending anxiety that our computer has been compromised. We got tired of that feeling, which is why we made GreenGuard, so it doesn’t matter what you click, you’ll always be protected.</p>
                 </div>
                 <div className="w-[500px] mt-[-17%] md:flex hidden">
                     <img src={AnxietyImg} alt="" />

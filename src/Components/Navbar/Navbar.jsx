@@ -15,9 +15,9 @@ function Navbar() {
     return (
         <div className="w-[100%] overflow-hidden">
             {nav===0 && (
-                <div className="flex justify-between items-center sm:px-20 px-6 py-7 bg-[#049A5B] relative">
+                <div className="flex justify-between items-center sm:px-20 py-7 bg-[#049A5B] relative">
                 <img src={Logo} alt="" />
-                <div className="lg:w-[40%] md:w-[55%]">
+                <div className="lg:w-[40%] md:w-[55%] w-[10%]">
                     <ul className="md:flex hidden justify-between items-center text-white">
                         <li><Link to="/" className="text-white navLink">Home</Link></li>
                         <li><Link to="/aboutUs" className="text-white navLink">About Us</Link></li>
@@ -36,7 +36,7 @@ function Navbar() {
                 <img src={Logo} alt="" />
                 <AiOutlineClose className="text-[28px] text-white" onClick={mobileNavClose} />
                 </div>
-                    <ul className="text-white px-3 mt-10 h-[50vh] flex flex-col justify-between">
+                    <ul className="text-white px-3 mt-10 h-[40vh] flex flex-col justify-between">
                         <li className="border-b pb-3"><Link to="/" className="text-white navLink font-bold">Home</Link></li>
                         <li className="border-b pb-3"><Link to="/aboutUs" className="text-white navLink font-bold">About Us</Link></li>
                         <li className="border-b pb-3"><Link to="/FAQ" className="text-white navLink font-bold">FAQ</Link></li>
