@@ -8,7 +8,7 @@ import { Route } from 'react-router-dom'
 
 function screen() {
     return (
-        <div className="bg-[#FFFFDD] w-[100%]">
+        <div className="bg-[#FFFFDD] w-[100%] overflow-x-hidden">
             <Navbar />
             <Route path="/" exact>
                 <Home />
