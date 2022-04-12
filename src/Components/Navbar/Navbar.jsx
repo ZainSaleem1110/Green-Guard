@@ -17,7 +17,7 @@ function Navbar() {
             {nav===0 && (
                 <div className="flex justify-between items-center sm:px-20 py-7 bg-[#049A5B] relative">
                 <img src={Logo} alt="" />
-                <div className="lg:w-[40%] md:w-[55%] w-[10%]">
+                <div className="lg:w-[37%] md:w-[55%] w-[10%]">
                     <ul className="md:flex hidden justify-between items-center text-white">
                         <li><Link to="/" className="text-white navLink">Home</Link></li>
                         <li><Link to="/aboutUs" className="text-white navLink">About Us</Link></li>
