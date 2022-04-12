@@ -51,7 +51,7 @@ function Home() {
             {nav===0 && (
                 <div className="flex justify-between items-center sm:px-20 py-7 bg-[#049A5B] relative">
                 <img src={Logo} alt="" />
-                <div className="lg:w-[37%] md:w-[55%] w-[10%]">
+                <div className="xl:w-[35%] lg:w-[37%] md:w-[55%] w-[10%]">
                     <ul className="md:flex hidden justify-between items-center text-white">
                         <li><Link to="/" className="text-white navLink text-[#FFFFDD] font-bold">Home</Link></li>
                         <li><Link to="/aboutUs" className="text-white navLink">About Us</Link><hr className="bg-white"/></li>
@@ -79,10 +79,10 @@ function Home() {
             </div>
             )}
         </div>
-            <div className="lg:flex flex-none justify-between sm:px-20 px-10 pt-14 gap-10 w-[100%] bg-[#049A5B]">
-                <div className="lg:w-[50%] w-[100%] z-40">
+            <div className=" lg:flex flex-none justify-between sm:px-20 px-10 pt-14 gap-10 w-[100%] bg-[#049A5B]">
+                <div className="lg:w-[50%] w-[100%] xl:w-[1200px] z-40">
                     <h1 className="text-[#FFFFDD] md:text-[64px] sm:text-[48px] text-[32px] leading-tight font-bold">The Sustainable <br /> Adblocker</h1>
-                    <p className="sm:text-[20px] text-white mt-8">Get rid of intrusive ads, online tracking and malware while planting trees. Browse faster, safer, and sustainably with GreenGuard.</p>
+                    <p className="sm:text-[20px] text-white mt-8 xl:w-[50%]">Get rid of intrusive ads, online tracking and malware while planting trees. Browse faster, safer, and sustainably with GreenGuard.</p>
                     <button className="flex text-[16px] font-bold justify-center items-center mt-5 bg-white px-2 py-4 rounded-md text-[#049A5B] h-[56px] sm:w-[287px] w-[230px]"><BiDownload className="mr-4 text-[16px] font-bold" />Download Extension</button>
                     <div className="mt-5 flex items-center">
                         <div className="w-[15px] h-[15px] bg-white rounded-full mr-3" style={{ border: "3px solid #08D57F" }}></div>
@@ -93,8 +93,8 @@ function Home() {
                     <img src={AddLocker} alt="" />
                 </div>
             </div>
-            <div className="w-[100%] mt-[-8%] h-[520px] pl-20 pr-10 z-30 gras items-center lg:flex hidden">
-                <img src={TreesImg} className=" mt-5" alt="" />
+            <div className="w-[100%] xl:mt-[-2%] lg:mt-[-8%] xl:h-[800px] lg:h-[520px] pl-20 pr-10 z-30 gras items-center lg:flex hidden">
+                <img src={TreesImg} className=" mt-5 w-[100%]" alt="" />
             </div>
             <div className="overflow-hidden relative">
                 <div className="md:w-[120%] md:h-[120vh] w-[100%] bg-[#049A5B] md:rounded-b-full md:ml-[-5%] flex justify-center mt-[-15%] md:pb-0 pb-10">
@@ -108,7 +108,7 @@ function Home() {
             <div className="sm:pl-20 flex items-center mx-4 pt-20 pb-5">
                 <div>
                     <h1 className="text-[#005D2D] lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] font-bold">Bring on the <span className="text-[#08D57F]">Trees</span></h1>
-                    <p className="text-[#005D2D] sm:text-[20px] mt-5 sm:pr-10">Trees are the lungs of our planet and the heart of our business. That’s why we partner with the shops you love to plant trees at no extra cost to you. We’re the only adblocker with both a healthy browsing and living experience as our mission.</p>
+                    <p className="text-[#005D2D] sm:text-[20px] mt-5 sm:pr-10 xl:w-[50%]">Trees are the lungs of our planet and the heart of our business. That’s why we partner with the shops you love to plant trees at no extra cost to you. We’re the only adblocker with both a healthy browsing and living experience as our mission.</p>
                 </div>
                 <img src={TreeRight} className="lg:flex hidden" alt="" />
             </div>
@@ -116,7 +116,7 @@ function Home() {
                 <div className='relative w-[100%]'>
                     <img src={Gras} className="w-[100%]" alt="" />
                     <div className="flex lg:justify-between justify-center absolute bottom-[45px] items-end w-[100%] px-24">
-                        <div className="mb-28 ml-10 lg:flex hidden">
+                        <div className="xl:mb-40 lg:mb-12 xl:ml-20 lg:ml-10 lg:flex hidden">
                             <img src={ThreeTrees} alt="" />
                         </div>
                         <img src={Board} className="lg:mr-20 mb-3" alt="" />
