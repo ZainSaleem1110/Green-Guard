@@ -83,8 +83,8 @@ function Home() {
                     <p className="sm:text-[20px] text-white mt-8 w-[70%]">Get rid of intrusive ads, online tracking and malware while planting trees. Browse faster, safer, and sustainably with GreenGuard.</p>
                     <button className="flex text-[16px] font-bold justify-center items-center mt-5 bg-white px-2 py-4 rounded-md text-[#049A5B] h-[56px] sm:w-[287px] w-[230px]"><BiDownload className="mr-4 text-[16px] font-bold" />Download Extension</button>
                     <div className="mt-5 flex items-center">
-                        <div className="w-[15px] h-[15px] bg-white rounded-full mr-3" style={{ border: "3px solid #08D57F" }}></div>
-                        <p className="text-white">It’s free to help the earth breathe</p>
+                        <div className="w-[12px] h-[12px] bg-white rounded-full mr-2" style={{ border: "2px solid #08D57F" }}></div>
+                        <p className="text-white text-[16px]">It’s free to help the earth breathe</p>
                     </div>
                 </div>
                 <div className="z-40 lg:mt-0 mt-10">
@@ -97,8 +97,8 @@ function Home() {
             <div className="overflow-hidden relative">
                 <div className="md:w-[120%] md:h-[120vh] w-[100%] bg-[#049A5B] md:rounded-b-full md:ml-[-5%] flex justify-center mt-[-15%] md:pb-0 pb-10">
                     <div className="md:w-[568px] w-[80%] md:mt-[17%] mt-[25%] lg:ml-[25%]">
-                        <h1 className="lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] text-white font-bold">Less Ads, <span className="text-[#08D57F]">Safer</span> Browsing</h1>
-                        <p className="text-white mt-5 pr-26 sm:text-[20px]">Ads are annoying, slow down our browsers and can hide spyware and malware inside of them. Our adblocker weeds them out, so your data stays safe and your browser keeps running fast.</p>
+                        <h1 className="lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] text-[#FFFFDD] font-bold">Less Ads, <span className="text-[#08D57F]">Safer</span> Browsing</h1>
+                        <p className="text-[#FFFFDD] mt-5 pr-26 sm:text-[20px]">Ads are annoying, slow down our browsers and can hide spyware and malware inside of them. Our adblocker weeds them out, so your data stays safe and your browser keeps running fast.</p>
                     </div>
                 </div>
                 <img src={Tree} className="absolute bottom-[-10%] left-0 w-[450px] h-[636px] lg:flex hidden" alt="" />
@@ -106,7 +106,7 @@ function Home() {
             <div className="sm:pl-20 flex items-center ml-4 pt-20 pb-5">
                 <div>
                     <h1 className="text-[#005D2D] lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] font-bold">Bring on the <span className="text-[#08D57F]">Trees</span></h1>
-                    <p className="text-[#005D2D] sm:text-[20px] mt-5 sm:pr-10 ">Trees are the lungs of our planet and the heart of our business. That’s why we partner with the shops you love to plant trees at no extra cost to you. We’re the only adblocker with both a healthy browsing and living experience as our mission.</p>
+                    <p className="text-[#005D2D] sm:text-[20px] mt-5 sm:pr-10 font-medium">Trees are the lungs of our planet and the heart of our business. That’s why we partner with the shops you love to plant trees at no extra cost to you. We’re the only adblocker with both a healthy browsing and living experience as our mission.</p>
                 </div>
                 <img src={TreeRight} className="lg:flex hidden" alt="" />
             </div>
