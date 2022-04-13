@@ -98,8 +98,8 @@ function FAQSection() {
          items-center">
             <h1 className="w-[88%] md:text-[64px] sm:text-[48px] text-[32px] font-bold text-[#FFFFDD] w-[88%]">FAQ</h1>
                 <div className='lg:mt-28 mt-12 w-[88%]'>
-                    <div className='faqDiv1 faqDiv rounded-t-md'>
-                        <div className='flex justify-between items-center px-5 py-4'>
+                    <div className='faqDiv1 faqDiv rounded-t-md py-4'>
+                        <div className='flex justify-between items-center px-5'>
                             <div className="flex items-center">
                                 <h1 className="lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] md:text-[40px] sm:text-[32px] text-[24px] font-bold text-[#049A5B]">01</h1>
                                 <h1 className='lg:text-[32px] md:text-[24px] sm:text-[20px] text-[16px] md:mr-0 mr-3 font-bold faqQ1 ml-4'>What’s an adblocker, anyway?</h1>
@@ -116,14 +116,14 @@ function FAQSection() {
                             )}
                         </div>
                         <div className="collapse" id="collapseExample">
-                            <div className="pt-0 pb-3 md:pl-32 md:pr-20 sm:pl-24 sm:pr-12 pl-24 pr-8 md:text-[20px] text-[16px] text-[#005D2D]">
+                            <div className="pt-0 pb-3 md:pl-32 md:pr-20 sm:pl-24 sm:pr-12 pl-24 pr-8 md:text-[20px] text-[16px] text-[#005D2D] mt-4">
                                 An ad blocker is an application that removes advertisements (pop-ups, banners etc.) from an Internet user's browsing experience. They block “bad” ads, letting users surf the web without malware threats or unpleasant distractions.
                             </div>
                         </div>
                     </div>
 
-                    <div className='faqDiv faqDiv2 '>
-                        <div className='flex justify-between items-center px-5 py-4'>
+                    <div className='faqDiv faqDiv2 py-4'>
+                        <div className='flex justify-between items-center px-5 '>
                             <div className="flex items-center">
                                 <h1 className="lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] font-bold text-[#049A5B]">02</h1>
                                 <h1 className='lg:text-[32px] md:text-[24px] sm:text-[20px] text-[16px] font-bold md:mr-0 mr-3 faqQ2 ml-4'>Why do I need an adblocker?</h1>
@@ -140,14 +140,14 @@ function FAQSection() {
                             )}
                         </div>
                         <div className="collapse" id="collapseExample1">
-                            <div className="pt-0 pb-3 md:pl-32 md:pr-20 sm:pl-24 sm:pr-12 pl-24 pr-8 md:text-[20px] text-[16px] text-[#005D2D]">
+                            <div className="pt-0 pb-3 md:pl-32 md:pr-20 sm:pl-24 sm:pr-12 pl-24 pr-8 md:text-[20px] text-[16px] text-[#005D2D] mt-4">
                                 An ad blocker is an application that removes advertisements (pop-ups, banners etc.) from an Internet user's browsing experience. They block “bad” ads, letting users surf the web without malware threats or unpleasant distractions.
                             </div>
                         </div>
                     </div>
 
-                    <div className='aqDiv faqDiv faqDiv3'>
-                        <div className='flex justify-between items-center px-5 py-4'>
+                    <div className='aqDiv faqDiv faqDiv3 py-4'>
+                        <div className='flex justify-between items-center px-5'>
                             <div className="flex items-center">
                                 <h1 className="lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] font-bold text-[#049A5B]">03</h1>
                                 <h1 className='lg:text-[32px] md:text-[24px] sm:text-[20px] text-[16px] font-bold md:mr-0 mr-3 faqQ3 ml-4'>What’s so special about Green Guard?</h1>
@@ -164,14 +164,14 @@ function FAQSection() {
                             )}
                         </div>
                         <div className="collapse" id="collapseExample2">
-                            <div className="pt-0 pb-3 md:pl-32 md:pr-20 sm:pl-24 sm:pr-12 pl-24 pr-8 md:text-[20px] text-[16px] text-[#005D2D]">
+                            <div className="pt-0 pb-3 md:pl-32 md:pr-20 sm:pl-24 sm:pr-12 pl-24 pr-8 md:text-[20px] text-[16px] text-[#005D2D] mt-4">
                                 An ad blocker is an application that removes advertisements (pop-ups, banners etc.) from an Internet user's browsing experience. They block “bad” ads, letting users surf the web without malware threats or unpleasant distractions.
                             </div>
                         </div>
                     </div>
 
-                    <div className='faqDiv faqDiv4'>
-                        <div className='flex justify-between items-center px-5 py-4'>
+                    <div className='faqDiv faqDiv4 py-4'>
+                        <div className='flex justify-between items-center px-5 '>
                             <div className="flex items-center">
                                 <h1 className="lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] font-bold text-[#049A5B]">04</h1>
                                 <h1 className='lg:text-[32px] md:text-[24px] sm:text-[20px] text-[16px] font-bold faqQ4 md:mr-0 mr-3 ml-4'>Is the GreenGuard adblocker safe?</h1>
@@ -188,14 +188,14 @@ function FAQSection() {
                             )}
                         </div>
                         <div className="collapse" id="collapseExample3">
-                            <div className="pt-0 pb-3 md:pl-32 md:pr-20 sm:pl-24 sm:pr-12 pl-24 pr-8 md:text-[20px] text-[16px] text-[#005D2D]">
+                            <div className="pt-0 pb-3 md:pl-32 md:pr-20 sm:pl-24 sm:pr-12 pl-24 pr-8 md:text-[20px] text-[16px] text-[#005D2D] mt-4">
                                 An ad blocker is an application that removes advertisements (pop-ups, banners etc.) from an Internet user's browsing experience. They block “bad” ads, letting users surf the web without malware threats or unpleasant distractions.
                             </div>
                         </div>
                     </div>
 
-                    <div className='faqDiv faqDiv5 rounded-b-md'>
-                        <div className='flex justify-between items-center px-5 py-4'>
+                    <div className='faqDiv faqDiv5 rounded-b-md py-4'>
+                        <div className='flex justify-between items-center px-5 '>
                             <div className="flex items-center">
                                 <h1 className="lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] font-bold text-[#049A5B]">05</h1>
                                 <h1 className='lg:text-[32px] md:text-[24px] sm:text-[20px] text-[16px] font-bold faqQ5 md:mr-0 mr-3 ml-4'>How does GreenGuard make the planet green again?</h1>
@@ -212,14 +212,14 @@ function FAQSection() {
                             )}
                         </div>
                         <div className="collapse" id="collapseExample4">
-                            <div className="pt-0 pb-3 md:pl-32 md:pr-20 sm:pl-24 sm:pr-12 pl-24 pr-8 md:text-[20px] text-[16px] text-[#005D2D]">
+                            <div className="pt-0 pb-3 md:pl-32 md:pr-20 sm:pl-24 sm:pr-12 pl-24 pr-8 md:text-[20px] text-[16px] text-[#005D2D] mt-4">
                                 An ad blocker is an application that removes advertisements (pop-ups, banners etc.) from an Internet user's browsing experience. They block “bad” ads, letting users surf the web without malware threats or unpleasant distractions.
                             </div>
                         </div>
                     </div>
 
-                    <div className='faqDiv faqDiv6 rounded-b-md'>
-                        <div className='flex justify-between items-center px-5 py-4'>
+                    <div className='faqDiv faqDiv6 rounded-b-md py-4'>
+                        <div className='flex justify-between items-center px-5 '>
                             <div className="flex items-center">
                                 <h1 className="lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] font-bold text-[#049A5B]">06</h1>
                                 <h1 className='lg:text-[32px] md:text-[24px] sm:text-[20px] text-[16px] font-bold faqQ6 md:mr-0 mr-3 ml-4'>Why does Green Guard care about the environment?</h1>
@@ -236,7 +236,7 @@ function FAQSection() {
                             )}
                         </div>
                         <div className="collapse" id="collapseExample5">
-                            <div className="pt-0 pb-3 md:pl-32 md:pr-20 sm:pl-24 sm:pr-12 pl-24 pr-8 md:text-[20px] text-[16px] text-[#005D2D]">
+                            <div className="pt-0 pb-3 md:pl-32 md:pr-20 sm:pl-24 sm:pr-12 pl-24 pr-8 md:text-[20px] text-[16px] text-[#005D2D] mt-4">
                                 An ad blocker is an application that removes advertisements (pop-ups, banners etc.) from an Internet user's browsing experience. They block “bad” ads, letting users surf the web without malware threats or unpleasant distractions.
                             </div>
                         </div>

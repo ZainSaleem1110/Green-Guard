@@ -5,9 +5,9 @@ function Protection() {
     return (
         <>
         <div className="px-20 justify-between items-center py-10 md:flex hidden">
-            <div>
+            <div className="sm:w-[568px] w-[80%]">
                 <h1 className="text-[48px] text-[#005D2D] leading-tight w-[65%]">Protection for <span className="font-bold">You</span> and <span className="font-bold">Your Computer</span></h1>
-                <p className="text-[20px] text-[#005D2D] mt-5 w-[80%]">Our adblocker stops more than pop-ups. It guards you from malware and data profiling, so you can browse threat-free 24/7. All while keeping your data 100% private, even from us!</p>
+                <p className="text-[20px] text-[#005D2D] mt-5">Our adblocker stops more than pop-ups. It guards you from malware and data profiling, so you can browse threat-free 24/7. All while keeping your data 100% private, even from us!</p>
             </div>
             <img src={ProtectionImg} className="w-[40%] h-[40%]" alt="" />
         </div>

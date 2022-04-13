@@ -7,7 +7,7 @@ function Footer() {
     return (
         <div className="pt-32 pb-52 flex flex-col items-center bg-[#007645]">
             <h1 className="sm:text-[48px] text-[28px] text-[#FFFFDD] font-bold text-center leading-tight">Block Ads For Good</h1>
-            <p className="sm:text-[24px] text-[18px] text-[#FFFFDD]">Download GreenGuard Today</p>
+            <p className="sm:text-[24px] text-[18px] font-bold text-[#FFFFDD] -mt-2">Download GreenGuard Today</p>
             <div className="flex flex-wrap justify-center mt-14">
                 <div className="w-[200px] h-[72px] bg-white rounded-md flex items-center pl-3 mx-3 mt-3">
                     <img src={GoogleImg} alt="" />

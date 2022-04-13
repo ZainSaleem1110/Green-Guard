@@ -19,7 +19,7 @@ function Anxiety() {
             </div>
             <div className="mt-32 flex flex-col items-center">
             <h1 className="md:text-[48px] sm:text-[40px] text-[24px]  text-[#FFFFDD] font-bold leading-tight">Still have questions about <br />GreenGuard Adblocker?</h1>
-            <Link to="/FAQ" className="flex justify-center items-center mt-5 bg-white px-10 py-3 rounded-md text-[#049A5B] hover:text-[#049A5B] mt-10" style={{textDecoration:"none"}}>VISIT OUR FAQ!</Link>
+            <Link to="/FAQ" className="flex justify-center items-center mt-5 bg-white w-[156px] h-[56px] font-bold py-3 rounded-md text-[#049A5B] hover:text-[#049A5B] mt-10" style={{textDecoration:"none"}}>VISIT OUR FAQ!</Link>
             </div>
             </div>
         </div>
