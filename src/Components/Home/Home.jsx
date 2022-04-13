@@ -80,7 +80,7 @@ function Home() {
             <div className=" lg:flex flex-none justify-between sm:px-20 px-10 pt-14 gap-10 w-[100%] bg-[#049A5B]">
                 <div className="lg:w-[50%] w-[100%] z-40">
                     <h1 className="text-[#FFFFDD] md:text-[64px] sm:text-[48px] text-[32px] leading-tight font-bold">The Sustainable <br /> Adblocker</h1>
-                    <p className="sm:text-[20px] text-white mt-8 ">Get rid of intrusive ads, online tracking and malware while planting trees. Browse faster, safer, and sustainably with GreenGuard.</p>
+                    <p className="sm:text-[20px] text-white mt-8 w-[70%]">Get rid of intrusive ads, online tracking and malware while planting trees. Browse faster, safer, and sustainably with GreenGuard.</p>
                     <button className="flex text-[16px] font-bold justify-center items-center mt-5 bg-white px-2 py-4 rounded-md text-[#049A5B] h-[56px] sm:w-[287px] w-[230px]"><BiDownload className="mr-4 text-[16px] font-bold" />Download Extension</button>
                     <div className="mt-5 flex items-center">
                         <div className="w-[15px] h-[15px] bg-white rounded-full mr-3" style={{ border: "3px solid #08D57F" }}></div>
@@ -110,7 +110,7 @@ function Home() {
                 </div>
                 <img src={TreeRight} className="lg:flex hidden" alt="" />
             </div>
-            <div className="mt-56">
+            <div className="">
                 <div className='relative w-[100%]'>
                     <img src={Gras} className="w-[100%]" alt="" />
                 </div>
