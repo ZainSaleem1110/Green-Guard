@@ -8,9 +8,7 @@ import { BiDownload } from 'react-icons/bi'
 import TreesImg from '../../assets/images/trees.svg'
 import Tree from '../../assets/images/tree.svg'
 import TreeRight from '../../assets/images/treeRight.svg'
-import Gras from '../../assets/images/gras.png'
-import ThreeTrees from '../../assets/images/three-trees.svg'
-import Board from '../../assets/images/board.svg'
+import Gras from '../../assets/images/board.svg'
 import Incon1 from '../../assets/images/icon-1.svg'
 import Incon2 from '../../assets/images/icon-2.svg'
 import Incon3 from '../../assets/images/icon-3.svg'
@@ -115,12 +113,6 @@ function Home() {
             <div className="mt-56">
                 <div className='relative w-[100%]'>
                     <img src={Gras} className="w-[100%]" alt="" />
-                    <div className="flex lg:justify-between justify-center absolute bottom-[45px] items-end w-[100%] px-24">
-                        <div className="lg:mb-16 lg:ml-10 lg:flex hidden">
-                            <img src={ThreeTrees} alt="" />
-                        </div>
-                        <img src={Board} className="lg:mr-20 mb-3" alt="" />
-                    </div>
                 </div>
                 <div className="bg-[#049A5B] flex flex-col items-center">
                     <h1 className="lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] font-bold text-center text-[#FFFFDD] py-10">Get a Better Browsing Experience</h1>
