@@ -48,7 +48,7 @@ function Home() {
         <div className="overflow-x-hidden">
             <div className="w-[100%] overflow-hidden">
                 {nav === 0 && (
-                    <div className="flex justify-between items-center sm:px-20 py-7 bg-[#049A5B] relative">
+                    <div className="flex justify-between items-center sm:px-20 px-7 py-7 bg-[#049A5B] relative">
                         <img src={Logo} alt="" />
                         <div className="lg:w-[37%] md:w-[55%] w-[10%]">
                             <ul className="md:flex hidden justify-between items-center text-white">
@@ -79,8 +79,8 @@ function Home() {
                 )}
             </div>
             <div className=" lg:flex flex-none justify-between sm:px-20 px-10 pt-14 gap-10 w-[100%] bg-[#049A5B]">
-                <div className="lg:w-[50%] w-[100%] z-40 sm:block flex flex-col items-center">
-                    <h1 className="text-[#FFFFDD] md:text-[64px] sm:text-[48px] text-[32px] leading-tight font-bold">The Sustainable <br /> Adblocker</h1>
+                <div className="lg:w-[50%] w-[100%] z-40">
+                    <h1 className="md:w-[80%] lg:w-[100%] text-[#FFFFDD] md:text-[64px] sm:text-[48px] text-[24px] leading-tight font-bold">The Sustainable Adblocker</h1>
                     <p className="sm:text-[20px] text-white mt-8 sm:w-[70%] w-[95%] ">Get rid of intrusive ads, online tracking and malware while planting trees. Browse faster, safer, and sustainably with GreenGuard.</p>
                     <button className="flex text-[16px] font-bold justify-center items-center mt-5 bg-white px-2 py-4 rounded-md text-[#049A5B] h-[56px] sm:w-[250px] w-[230px]"><BiDownload className="mr-4 text-[20px] font-bolder" />Download Extension</button>
                     <div className="mt-5 flex items-center">
@@ -97,16 +97,16 @@ function Home() {
             </div>
             <div className="overflow-hidden relative">
                 <div className="md:w-[120%] md:h-[120vh] w-[100%] bg-[#049A5B] md:rounded-b-full md:ml-[-5%] flex justify-center mt-[-15%] md:pb-0 pb-10">
-                    <div className="md:w-[568px] w-[80%] md:mt-[17%] mt-[25%] lg:ml-[25%] sm:block flex flex-col items-center">
-                        <h1 className="lg:text-[48px] md:text-[40px] sm:text-[32px] text-[30px] text-[#FFFFDD] font-bold ">Less Ads, <span className="text-[#08D57F]">Safer</span> Browsing</h1>
+                    <div className="md:w-[568px] w-[80%] md:mt-[17%] mt-[25%] lg:ml-[25%]">
+                        <h1 className="lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] text-[#FFFFDD] font-bold ">Less Ads, <span className="text-[#08D57F]">Safer</span> Browsing</h1>
                         <p className="text-[#FFFFDD] mt-5 pr-26 sm:text-[20px]">Ads are annoying, slow down our browsers and can hide spyware and malware inside of them. Our adblocker weeds them out, so your data stays safe and your browser keeps running fast.</p>
                     </div>
                 </div>
                 <img src={Tree} className="absolute lg:bottom-[-20%] left-0 w-[450px] h-[636px] lg:flex hidden" alt="" />
             </div>
             <div className="sm:pl-20 flex items-center ml-4 pt-20 pb-5">
-                <div className="sm:block flex flex-col items-center">
-                    <h1 className="text-[#005D2D] lg:text-[48px] md:text-[40px] sm:text-[32px] text-[32px] font-bold">Bring on the <span className="text-[#08D57F]">Trees</span></h1>
+                <div className="pl-2">
+                    <h1 className="text-[#005D2D] lg:text-[48px] md:text-[40px] sm:text-[32px] text-[28px] font-bold">Bring on the <span className="text-[#08D57F]">Trees</span></h1>
                     <p className="text-[#005D2D] sm:text-[20px] mt-5 sm:pr-10 font-medium sm:w-[100%] w-[90%]">Trees are the lungs of our planet and the heart of our business. That’s why we partner with the shops you love to plant trees at no extra cost to you. We’re the only adblocker with both a healthy browsing and living experience as our mission.</p>
                 </div>
                 <img src={TreeRight} className="lg:flex hidden" alt="" />
