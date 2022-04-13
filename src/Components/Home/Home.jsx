@@ -99,15 +99,15 @@ function Home() {
                 <div className="md:w-[120%] md:h-[120vh] w-[100%] bg-[#049A5B] md:rounded-b-full md:ml-[-5%] flex justify-center mt-[-15%] md:pb-0 pb-10">
                     <div className="md:w-[568px] w-[80%] md:mt-[17%] mt-[25%] lg:ml-[25%]">
                         <h1 className="lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] text-[#FFFFDD] font-bold ">Less Ads, <span className="text-[#08D57F]">Safer</span> Browsing</h1>
-                        <p className="text-[#FFFFDD] mt-5 pr-26 sm:text-[20px]">Ads are annoying, slow down our browsers and can hide spyware and malware inside of them. Our adblocker weeds them out, so your data stays safe and your browser keeps running fast.</p>
+                        <p className="text-[#FFFFDD] mt-5 pr-26 sm:text-[20px] sm:flex hidden">Ads are annoying, slow down our browsers and can hide spyware and malware inside of them. Our adblocker weeds them out, so your data stays safe and your browser keeps running fast.</p>
                     </div>
                 </div>
                 <img src={Tree} className="absolute lg:bottom-[-20%] left-0 w-[450px] h-[636px] lg:flex hidden" alt="" />
             </div>
             <div className="sm:pl-20 flex items-center ml-4 pt-20 pb-5">
                 <div className="pl-2">
-                    <h1 className="text-[#005D2D] lg:text-[48px] md:text-[40px] sm:text-[32px] text-[28px] font-bold">Bring on the <span className="text-[#08D57F]">Trees</span></h1>
-                    <p className="text-[#005D2D] sm:text-[20px] mt-5 sm:pr-10 font-medium sm:w-[100%] w-[90%]">Trees are the lungs of our planet and the heart of our business. That’s why we partner with the shops you love to plant trees at no extra cost to you. We’re the only adblocker with both a healthy browsing and living experience as our mission.</p>
+                    <h1 className="text-[#005D2D] lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] font-bold">Bring on the <span className="text-[#08D57F]">Trees</span></h1>
+                    <p className="text-[#005D2D] sm:text-[20px] mt-5 sm:pr-10 font-medium sm:w-[100%] w-[90%] sm:flex hidden">Trees are the lungs of our planet and the heart of our business. That’s why we partner with the shops you love to plant trees at no extra cost to you. We’re the only adblocker with both a healthy browsing and living experience as our mission.</p>
                 </div>
                 <img src={TreeRight} className="lg:flex hidden" alt="" />
             </div>
@@ -116,7 +116,7 @@ function Home() {
                     <img src={Gras} className="w-[100%]" alt="" />
                 </div>
                 <div className="bg-[#049A5B] flex flex-col items-center">
-                    <h1 className="lg:text-[48px] md:text-[40px] sm:text-[32px] text-[28px] font-bold text-center text-[#FFFFDD] py-10">Get a Better Browsing Experience</h1>
+                    <h1 className="lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] font-bold text-center text-[#FFFFDD] py-10">Get a Better Browsing Experience</h1>
                     <div className="flex flex-wrap justify-center">
                         {browsing.map(listing => {
                             return <div className="w-[300px] sm:h-[236px] h-[200px] flex flex-col items-center justify-center px-6">
