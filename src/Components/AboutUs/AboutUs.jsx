@@ -21,7 +21,7 @@ function AboutUs() {
         <div className="bg-[#049A5B]">
             <div className="w-[100%] overflow-hidden">
             {nav===0 && (
-                <div className="flex justify-between items-center sm:px-20 py-7 bg-[#049A5B] relative">
+                <div className="flex justify-between items-center sm:px-20 px-7 py-7 bg-[#049A5B] relative">
                 <img src={Logo} alt="" />
                 <div className="lg:w-[37%] md:w-[55%] w-[10%]">
                     <ul className="md:flex hidden justify-between items-center text-white">
