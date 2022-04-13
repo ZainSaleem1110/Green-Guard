@@ -25,10 +25,10 @@ function FAQ() {
                 <img src={Logo} alt="" />
                 <div className="lg:w-[37%] md:w-[55%] w-[10%]">
                     <ul className="md:flex hidden justify-between items-center text-white">
-                        <li><Link to="/" className="text-white navLink">Home</Link><hr className="bg-white"/></li>
-                        <li><Link to="/aboutUs" className="text-white navLink">About Us</Link><hr className="bg-white"/></li>
+                        <li><Link to="/" className="text-white navLink font-bold">Home</Link><hr className="bg-white"/></li>
+                        <li><Link to="/aboutUs" className="text-white navLink font-bold">About Us</Link><hr className="bg-white"/></li>
                         <li><Link to="/FAQ" className="text-white navLink text-[#FFFFDD] font-bold">FAQ</Link></li>
-                        <li className="bg-[#08D57F] px-5 py-3 rounded-md"><a href="" className="text-white" style={{textDecoration:"none"}}>Download</a></li>
+                        <li className="bg-[#08D57F] px-5 py-3 rounded-md"><a href="" className="text-white font-bold" style={{textDecoration:"none"}}>Download</a></li>
                     </ul>
                     <div className='md:hidden flex'>
                         <FaBars className='text-white' onClick={mobileNav}/>
@@ -44,7 +44,7 @@ function FAQ() {
                 </div>
                     <ul className="text-white px-3 mt-10 h-[40vh] flex flex-col justify-between">
                         <li className="border-b pb-3"><Link to="/" className="text-white navLink font-bold">Home</Link></li>
-                        <li className="border-b pb-3"><Link to="/aboutUs" className="text-white navLink font-bold">About Us</Link></li>
+                        <li className="border-b pb-3"><Link to="/aboutUs" className="text-white navLink font-bold ">About Us</Link></li>
                         <li className="border-b pb-3"><Link to="/FAQ" className="text-white navLink font-bold">FAQ</Link></li>
                         <li className="bg-[#08D57F] px-5 py-3 rounded-md font-bold text-center"><a href="">Download</a></li>
                     </ul>

@@ -53,9 +53,9 @@ function Home() {
                         <div className="lg:w-[37%] md:w-[55%] w-[10%]">
                             <ul className="md:flex hidden justify-between items-center text-white">
                                 <li><Link to="/" className="text-white navLink text-[#FFFFDD] font-bold">Home</Link></li>
-                                <li><Link to="/aboutUs" className="text-white navLink">About Us</Link><hr className="bg-white" /></li>
-                                <li><Link to="/FAQ" className="text-white navLink ">FAQ</Link><hr className="bg-white" /></li>
-                                <li className="bg-[#08D57F] px-5 py-3 rounded-md"><a href="" className="text-white" style={{ textDecoration: "none" }}>Download</a></li>
+                                <li><Link to="/aboutUs" className="text-white navLink font-bold">About Us</Link><hr className="bg-white" /></li>
+                                <li><Link to="/FAQ" className="text-white navLink font-bold">FAQ</Link><hr className="bg-white" /></li>
+                                <li className="bg-[#08D57F] px-5 py-3 rounded-md"><a href="" className="text-white font-bold" style={{ textDecoration: "none" }}>Download</a></li>
                             </ul>
                             <div className='md:hidden flex'>
                                 <FaBars className='text-white' onClick={mobileNav} />
@@ -82,7 +82,7 @@ function Home() {
                 <div className="lg:w-[50%] w-[100%] z-40">
                     <h1 className="text-[#FFFFDD] md:text-[64px] sm:text-[48px] text-[32px] leading-tight font-bold">The Sustainable <br /> Adblocker</h1>
                     <p className="sm:text-[20px] text-white mt-8 w-[70%]">Get rid of intrusive ads, online tracking and malware while planting trees. Browse faster, safer, and sustainably with GreenGuard.</p>
-                    <button className="flex text-[16px] font-bold justify-center items-center mt-5 bg-white px-2 py-4 rounded-md text-[#049A5B] h-[56px] sm:w-[287px] w-[230px]"><BiDownload className="mr-4 text-[16px] font-bold" />Download Extension</button>
+                    <button className="flex text-[16px] font-bold justify-center items-center mt-5 bg-white px-2 py-4 rounded-md text-[#049A5B] h-[56px] sm:w-[250px] w-[230px]"><BiDownload className="mr-4 text-[20px] font-bolder" />Download Extension</button>
                     <div className="mt-5 flex items-center">
                         <div className="w-[12px] h-[12px] bg-white rounded-full mr-2" style={{ border: "2px solid #08D57F" }}></div>
                         <p className="text-white text-[16px]">It’s free to help the earth breathe</p>
@@ -96,13 +96,13 @@ function Home() {
                 <img src={TreesImg} className=" mt-3 w-[100%]" alt="" />
             </div>
             <div className="overflow-hidden relative">
-                <div className="md:w-[120%] md:h-[120vh] w-[100%] bg-[#049A5B] md:rounded-b-full md:ml-[-5%] flex justify-center mt-[-15%] md:pb-0 pb-10">
+                <div className="md:w-[120%] xl:h-[160vh] md:h-[120vh] w-[100%] bg-[#049A5B] md:rounded-b-full md:ml-[-5%] flex justify-center mt-[-15%] md:pb-0 pb-10">
                     <div className="md:w-[568px] w-[80%] md:mt-[17%] mt-[25%] lg:ml-[25%]">
                         <h1 className="lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] text-[#FFFFDD] font-bold">Less Ads, <span className="text-[#08D57F]">Safer</span> Browsing</h1>
                         <p className="text-[#FFFFDD] mt-5 pr-26 sm:text-[20px]">Ads are annoying, slow down our browsers and can hide spyware and malware inside of them. Our adblocker weeds them out, so your data stays safe and your browser keeps running fast.</p>
                     </div>
                 </div>
-                <img src={Tree} className="absolute bottom-[-10%] left-0 w-[450px] h-[636px] lg:flex hidden" alt="" />
+                <img src={Tree} className="absolute xl:bottom-[-20%] lg:bottom-[-50%] left-0 w-[450px] h-[636px] lg:flex hidden" alt="" />
             </div>
             <div className="sm:pl-20 flex items-center ml-4 pt-20 pb-5">
                 <div>

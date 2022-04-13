@@ -116,7 +116,7 @@ function FAQSection() {
                             )}
                         </div>
                         <div className="collapse" id="collapseExample">
-                            <div className="pt-0 pb-3 md:pl-32 md:pr-20 sm:pl-24 sm:pr-12 pl-24 pr-8 md:text-[20px] text-[16px] text-[#005D2D] mt-4">
+                            <div className="pt-0 pb-3 md:pl-30 md:pr-20 sm:pl-28 sm:pr-12 pl-24 pr-8 md:text-[20px] text-[16px] text-[#005D2D] mt-4">
                                 An ad blocker is an application that removes advertisements (pop-ups, banners etc.) from an Internet user's browsing experience. They block “bad” ads, letting users surf the web without malware threats or unpleasant distractions.
                             </div>
                         </div>

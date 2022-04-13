@@ -25,10 +25,10 @@ function AboutUs() {
                 <img src={Logo} alt="" />
                 <div className="lg:w-[37%] md:w-[55%] w-[10%]">
                     <ul className="md:flex hidden justify-between items-center text-white">
-                        <li><Link to="/" className="text-white navLink">Home</Link><hr className="bg-white"/></li>
+                        <li><Link to="/" className="text-white navLink font-bold">Home</Link><hr className="bg-white"/></li>
                         <li><Link to="/aboutUs" className="text-white navLink text-[#FFFFDD] font-bold">About Us</Link></li>
-                        <li><Link to="/FAQ" className="text-white navLink">FAQ</Link><hr className="bg-white"/></li>
-                        <li className="bg-[#08D57F] px-5 py-3 rounded-md"><a href="" className="text-white" style={{textDecoration:"none"}}>Download</a></li>
+                        <li><Link to="/FAQ" className="text-white navLink font-bold">FAQ</Link><hr className="bg-white"/></li>
+                        <li className="bg-[#08D57F] px-5 py-3 rounded-md"><a href="" className="text-white font-bold" style={{textDecoration:"none"}}>Download</a></li>
                     </ul>
                     <div className='md:hidden flex'>
                         <FaBars className='text-white' onClick={mobileNav}/>
