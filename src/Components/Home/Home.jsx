@@ -96,13 +96,13 @@ function Home() {
                 <img src={TreesImg} className=" mt-3 w-[100%]" alt="" />
             </div>
             <div className="overflow-hidden relative">
-                <div className="md:w-[120%] xl:h-[160vh] md:h-[120vh] w-[100%] bg-[#049A5B] md:rounded-b-full md:ml-[-5%] flex justify-center mt-[-15%] md:pb-0 pb-10">
+                <div className="md:w-[120%] md:h-[120vh] w-[100%] bg-[#049A5B] md:rounded-b-full md:ml-[-5%] flex justify-center mt-[-15%] md:pb-0 pb-10">
                     <div className="md:w-[568px] w-[80%] md:mt-[17%] mt-[25%] lg:ml-[25%]">
                         <h1 className="lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] text-[#FFFFDD] font-bold">Less Ads, <span className="text-[#08D57F]">Safer</span> Browsing</h1>
                         <p className="text-[#FFFFDD] mt-5 pr-26 sm:text-[20px]">Ads are annoying, slow down our browsers and can hide spyware and malware inside of them. Our adblocker weeds them out, so your data stays safe and your browser keeps running fast.</p>
                     </div>
                 </div>
-                <img src={Tree} className="absolute lg:bottom-[20%] left-0 w-[450px] h-[636px] lg:flex hidden" alt="" />
+                <img src={Tree} className="absolute lg:bottom-[-20%] left-0 w-[450px] h-[636px] lg:flex hidden" alt="" />
             </div>
             <div className="sm:pl-20 flex items-center ml-4 pt-20 pb-5">
                 <div>
