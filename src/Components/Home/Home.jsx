@@ -102,7 +102,7 @@ function Home() {
                         <p className="text-[#FFFFDD] mt-5 pr-26 sm:text-[20px]">Ads are annoying, slow down our browsers and can hide spyware and malware inside of them. Our adblocker weeds them out, so your data stays safe and your browser keeps running fast.</p>
                     </div>
                 </div>
-                <img src={Tree} className="absolute xl:bottom-[-20%] lg:bottom-[-50%] left-0 w-[450px] h-[636px] lg:flex hidden" alt="" />
+                <img src={Tree} className="absolute lg:bottom-[20%] left-0 w-[450px] h-[636px] lg:flex hidden" alt="" />
             </div>
             <div className="sm:pl-20 flex items-center ml-4 pt-20 pb-5">
                 <div>
