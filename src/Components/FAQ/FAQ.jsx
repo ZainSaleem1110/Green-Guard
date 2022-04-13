@@ -51,13 +51,13 @@ function FAQ() {
             </div>
             )}
         </div>
-        <div className="bg-[#049A5B] relative w-[100%] xl:pt-[7%]">
-            <div className="w-[100%] xl:h[1000px] h-[520px] px-10 z-30 gras items-center lg:flex hidden justify-center">
-                <img src={TreesImg} className="xl:w-[80%] w-[100%] mt-5 xl:mb-[5%]" alt="" />
+        <div className="bg-[#049A5B] relative w-[100%] ">
+            <div className="w-[100%] h-[520px] px-10 z-30 gras items-center lg:flex hidden justify-center">
+                <img src={TreesImg} className="w-[100%] mt-5 " alt="" />
             </div>
             <div>
                 <div>
-                    <div className="lg:absolute xl:pt-[5%] lg:top-[3%] w-[100%]">
+                    <div className="lg:absolute lg:top-[3%] w-[100%]">
                     <FAQSection/>
                     </div>
                     <img src={Greenry} className="lg:mt-40 mt-0 w-[100%]" alt="" />

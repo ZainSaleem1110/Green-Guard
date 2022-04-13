@@ -96,8 +96,8 @@ function FAQSection() {
         <div className="w-[100%] overflow-hidden text-white" id="faq">
             <div className="w-[100%] pb-20 rounded-t-full faq flex flex-col
          items-center">
-            <h1 className="xl:w-[1150px] w-[88%] md:text-[64px] sm:text-[48px] text-[32px] font-bold text-[#FFFFDD] w-[88%]">FAQ</h1>
-                <div className='lg:mt-28 mt-12 xl:w-[1150px] w-[88%]'>
+            <h1 className="w-[88%] md:text-[64px] sm:text-[48px] text-[32px] font-bold text-[#FFFFDD] w-[88%]">FAQ</h1>
+                <div className='lg:mt-28 mt-12 w-[88%]'>
                     <div className='faqDiv1 faqDiv rounded-t-md'>
                         <div className='flex justify-between items-center px-5 py-4'>
                             <div className="flex items-center">
