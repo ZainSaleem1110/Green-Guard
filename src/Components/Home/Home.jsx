@@ -105,7 +105,7 @@ function Home() {
                 </div>
                 <img src={Tree} className="absolute bottom-[-10%] left-0 w-[450px] h-[636px] lg:flex hidden" alt="" />
             </div>
-            <div className="sm:pl-20 flex items-center mx-4 pt-20 pb-5">
+            <div className="sm:pl-20 flex items-center ml-4 pt-20 pb-5">
                 <div>
                     <h1 className="text-[#005D2D] lg:text-[48px] md:text-[40px] sm:text-[32px] text-[24px] font-bold">Bring on the <span className="text-[#08D57F]">Trees</span></h1>
                     <p className="text-[#005D2D] sm:text-[20px] mt-5 sm:pr-10 ">Trees are the lungs of our planet and the heart of our business. That’s why we partner with the shops you love to plant trees at no extra cost to you. We’re the only adblocker with both a healthy browsing and living experience as our mission.</p>
